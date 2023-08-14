@@ -176,35 +176,49 @@ section:nth-child(odd) h2{
 }
 
 @media only screen and (max-width: 768px) {
+   nav ul li a {
+        font-size: 25px;
+    }
     body {
-        padding: 50px;
+        margin-top: 80px;
+        padding: 8px;
+        padding-bottom: 100px;
     }
-    nav {
-        justify-content: center;
-    }
-
-    nav ul li {
-        margin-right: 30px;
-        font-size: 18px;
+    section{
+        padding: 10px;
+       
     }
 
-    #home {
-        padding-top: 80px;
+    header .logo {
+        padding-top: 150px;
+        margin-left: 3px;
+       
+    }
+    header .logo img{
+        width: 75px;
+        height: 75px;
+    }
+    
+    h2 {
+        font-size: 28px;
+    }
+    #home p{
+    font-size: 18px;
     }
 
-    h1, h2 {
-        font-size: 20px;
+    .file p, .file a {
+        font-size: 21px;
+        padding: 12px 20px; 
     }
 
-    .file p {
+    footer {
         font-size: 17px;
     }
 
-    .file a {
-        padding: 6px 10px;
-    }
-    .welcome h1{
-        font-size: 19%;
+   
+    .logo-container img {
+
+        max-width: 160px; 
     }
 }
 
