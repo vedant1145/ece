@@ -194,8 +194,9 @@ section:nth-child(odd) h2{
 }
 
 .preloader video {
-    max-width: 50%;
-    max-height: 50%;
+    max-width: 70%;
+    max-height: 70%;
+      border-radius: 50%;
 }
 
 .hidden-section {
